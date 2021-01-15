@@ -1,3 +1,6 @@
+## 1.0.3 (January 15, 2021)
+- Fixed missing parameter problem in ApmTransactionSenderListener
+
 ## 1.0.2 (October 21, 2020)
   - Add more detailed configuration options in README
   
