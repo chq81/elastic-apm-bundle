@@ -11,10 +11,6 @@
         </testsuite>
     </testsuites>
 
-    <php>
-        <ini name="xdebug.mode" value="coverage" />
-    </php>
-
     <filter>
         <whitelist>
             <directory>./</directory>
