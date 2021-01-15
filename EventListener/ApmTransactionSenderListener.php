@@ -50,6 +50,7 @@ class ApmTransactionSenderListener implements ElasticApmAwareInterface, LoggerAw
 
         try {
             $this->apm->send();
+            $sent = true;
         } catch (\Throwable $e) {
             $sent = false;
         }
