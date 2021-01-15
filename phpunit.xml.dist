@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         executionOrder="depends,defects"
          colors="true"
          bootstrap="./vendor/autoload.php"
 >
@@ -9,6 +10,10 @@
             <directory suffix="Test.php">./Tests</directory>
         </testsuite>
     </testsuites>
+
+    <php>
+        <ini name="xdebug.mode" value="coverage" />
+    </php>
 
     <filter>
         <whitelist>
